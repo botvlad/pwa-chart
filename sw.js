@@ -1,5 +1,5 @@
 const CACHE_NAME = 'pwa-games-cache-v1';
-const ASSETS = ['/', '/index.html', '/src/main.jsx', '/src/App.jsx'];
+const ASSETS = ['./', './index.html'];
 
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE_NAME).then(cache => cache.addAll(ASSETS)));
