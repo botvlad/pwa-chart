@@ -32,7 +32,7 @@ export default function App(){
       <main className="grid">
         {games.map((g, i)=> (
           <article key={g} className="card" onClick={()=>alert(translations[lang])}>
-            <img src={`./images/game_${i%4+1}.png`} alt={g} />
+            <img src={`/images/game_${i%4+1}.png`} alt={g} />
             <div className="meta">
               <h3>{g}</h3>
             </div>

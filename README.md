@@ -1,3 +1,5 @@
-# Fixed PWA Games Collection
+# Final PWA Games Project
 
-Now with corrected index.html and vite.config.js for Vercel deploy.
+- index.html uses /src/main.jsx
+- vite.config.js without base
+- Ready for Vercel deploy
